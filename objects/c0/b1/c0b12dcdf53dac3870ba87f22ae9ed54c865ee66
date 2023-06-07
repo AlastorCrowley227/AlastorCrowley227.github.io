@@ -1,0 +1,11 @@
+ServerEvents.recipes(event => {
+  event.remove({output: 'createaddition:diamond_grit_sandpaper'})
+    event.shaped('createaddition:diamond_grit_sandpaper', [
+        'BBB',
+        'BAB',
+        'BBB'
+      ], {
+        B: 'createaddition:diamond_grit',
+        A: 'create:sturdy_sheet'
+      })
+})
