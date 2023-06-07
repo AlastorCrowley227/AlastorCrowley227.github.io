@@ -1,0 +1,15 @@
+ServerEvents.recipes(event => {
+  event.remove({output: 'createdeco:cast_iron_ingot'})
+    event.custom({
+      type: 'create:compacting',
+      heatRequirement: 'heated',
+      ingredients: [
+          Ingredient.of('create:iron_sheet').toJson(),
+          Ingredient.of('kubejs:carbon_dust').toJson()
+      ],
+      results: [
+          Item.of('createdeco:cast_iron_ingot').toJson()
+      ],
+      processingTime: 100
+    })
+  }) 

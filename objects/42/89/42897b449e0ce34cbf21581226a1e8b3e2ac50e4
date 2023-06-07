@@ -1,0 +1,10 @@
+ServerEvents.recipes(event => {
+    event.shaped('create:andesite_alloy', [
+        'BAB',
+        'ABA',
+        'BAB'
+      ], {
+        A: 'minecraft:andesite',
+        B: 'create:raw_zinc'
+      })
+})
