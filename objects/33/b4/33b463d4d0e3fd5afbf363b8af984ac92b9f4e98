@@ -1,0 +1,12 @@
+ServerEvents.recipes(event => {
+    event.shaped('kubejs:drill_head', [
+        ' A ',
+        'ABA',
+        'CDC'
+      ], {
+        A: 'createaddition:diamond_grit',
+        B: 'create:shadow_steel',
+        C: 'createdeco:cast_iron_ingot',
+        D: 'create:shaft'
+      })
+})
