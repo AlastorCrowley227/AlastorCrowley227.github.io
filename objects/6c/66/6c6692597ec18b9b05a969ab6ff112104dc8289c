@@ -1,9 +1,0 @@
-ServerEvents.recipes(event => {
-    event.shaped('create:zinc_ingot', [
-        'AAA',
-        'AAA',
-        'AAA'
-      ], {
-        A: 'create:zinc_nugget'
-      })
-})
