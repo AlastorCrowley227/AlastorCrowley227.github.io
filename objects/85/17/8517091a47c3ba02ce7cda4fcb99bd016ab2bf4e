@@ -1,8 +1,0 @@
-#KubeJS Common Properties
-#Fri Feb 24 01:16:04 MSK 2023
-announceReload=true
-serverOnly=false
-hideServerScriptErrors=false
-saveDevPropertiesInConfig=false
-packmode=default
-debugInfo=false
