@@ -1,0 +1,13 @@
+ServerEvents.recipes(event => {
+    event.custom({
+      type: 'create:item_application',
+      ingredients: [
+          {tag:'c:stripped_logs'},
+          {item:'create:shadow_steel'}
+      ],
+      results: [
+          Item.of('create:shadow_steel_casing').toJson(),
+      ],
+      processingTime: 100
+    })
+  }) 
