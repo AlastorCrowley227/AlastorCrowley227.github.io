@@ -1,0 +1,14 @@
+ServerEvents.recipes(event => {
+    event.custom({
+      type: 'create:compacting',
+      heatRequirement: 'heated',
+      ingredients: [
+          Ingredient.of('create:iron_sheet').toJson(),
+          Ingredient.of('kubejs:carbon_alloy').toJson()
+      ],
+      results: [
+          Item.of('3x createdeco:cast_iron_ingot').toJson()
+      ],
+      processingTime: 100
+    })
+  }) 

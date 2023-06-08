@@ -1,0 +1,17 @@
+ServerEvents.recipes(event => {
+  event.remove({output: 'createaddition:diamond_grit'})
+    event.custom({
+      type: 'create:crushing',
+      ingredients: [
+          Ingredient.of('minecraft:diamond').toJson(),
+
+      ],
+      results: [
+
+          Item.of('createaddition:diamond_grit').toJson(),
+          Item.of('createaddition:diamond_grit').withChance('0.35'),
+    
+      ],
+      processingTime: 100
+    })
+  }) 
