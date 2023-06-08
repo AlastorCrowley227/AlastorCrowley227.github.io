@@ -1,9 +1,0 @@
-ServerEvents.recipes(event => {
-    event.shaped('createdeco:cast_iron_block', [
-        'BBB',
-        'BBB',
-        'BBB'
-      ], {
-        B: 'createdeco:cast_iron_ingot'
-      })
-})
