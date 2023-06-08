@@ -1,0 +1,10 @@
+ServerEvents.recipes(event => {
+    /*event.shaped('create:zinc_ingot', [
+        'AAA',
+        'AAA',
+        'AAA'
+      ], {
+        A: 'create:zinc_nugget'
+      }),*/
+      event.shapeless('minecraft:light', ['minecraft:glass_bottle','minecraft:torch'])
+})

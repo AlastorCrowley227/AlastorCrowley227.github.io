@@ -1,0 +1,20 @@
+ServerEvents.recipes(event => {
+    event.custom({
+      type: 'create:compacting',
+      ingredients: [
+          Ingredient.of('create:zinc_nugget').toJson(),
+          Ingredient.of('create:zinc_nugget').toJson(),
+          Ingredient.of('create:zinc_nugget').toJson(),
+          Ingredient.of('create:zinc_nugget').toJson(),
+          Ingredient.of('create:zinc_nugget').toJson(),
+          Ingredient.of('create:zinc_nugget').toJson(),
+          Ingredient.of('create:zinc_nugget').toJson(),
+          Ingredient.of('create:zinc_nugget').toJson(),
+          Ingredient.of('create:zinc_nugget').toJson()
+      ],
+      results: [
+          Item.of('create:zinc_ingot').toJson()
+      ],
+      processingTime: 100
+    })
+  }) 

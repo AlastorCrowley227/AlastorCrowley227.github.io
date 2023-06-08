@@ -1,0 +1,11 @@
+ServerEvents.recipes(event => {
+  event.remove({output: 'create:mechanical_drill'})
+    event.shaped('create:mechanical_drill', [
+        '   ',
+        ' B ',
+        ' A '
+      ], {
+        B: 'kubejs:drill_head',
+        A: 'kubejs:base'
+      })
+})
