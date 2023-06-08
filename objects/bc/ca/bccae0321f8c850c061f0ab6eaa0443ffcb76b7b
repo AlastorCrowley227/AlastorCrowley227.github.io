@@ -1,0 +1,16 @@
+ServerEvents.recipes(event => {
+    event.custom({
+      type: 'create:filling',
+      ingredients: [
+          Ingredient.of('minecraft:obsidian').toJson(),
+          Fluid.of('kubejs:sugoma', 2025).toJson()
+
+      ],
+      results: [
+
+          Item.of('minecraft:crying_obsidian').toJson()
+    
+      ],
+      processingTime: 100
+    })
+  }) 
