@@ -1,0 +1,3 @@
+StartupEvents.registry('item', event => {
+    event.create('wart_dust').displayName('Передробленные наросты')
+    })
