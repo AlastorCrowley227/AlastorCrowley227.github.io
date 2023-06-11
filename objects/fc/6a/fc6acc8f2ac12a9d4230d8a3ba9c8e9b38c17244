@@ -1,9 +1,0 @@
-ServerEvents.recipes(event => {
-  event.remove({output: 'grapplemod:baseupgradeitem'}),
-  event.remove({output: 'grapplemod:repeller'}),
-  event.remove({output: 'grapplemod:launcheritem'}),
-  event.remove({output: 'grapplemod:block_grapple_modifier'}),
-  event.remove({output: 'vinery:king_danis_wine'}),
-  event.remove({output: 'createdeco:zinc_sheet'}),
-  event.remove({output: 'createdeco:cast_iron_block'})
-  }) 
